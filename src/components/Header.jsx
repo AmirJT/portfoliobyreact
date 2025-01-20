@@ -1,13 +1,13 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-const Header = () => {
-  return (
-    <header style={{ backgroundColor: "#333", color: "white", padding: "1rem", textAlign: "center" }}>
-      <h1>Amir J Tehrani</h1>
+const Header = () => (
+  <header style={{ position: "sticky", top: 0, backgroundColor: "#212121", color: "white", zIndex: 1000 }}>
+    <div className="container">
+      <h1 className="site-title">Amir Jafari</h1>
       <Navigation />
-    </header>
-  );
-};
+    </div>
+  </header>
+);
 
 export default Header;
