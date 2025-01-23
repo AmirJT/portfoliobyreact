@@ -4,7 +4,6 @@
 
 This is a portfolio website created using React and modern web development technologies. The purpose of this project is to showcase my work, skills, and projects in a visually engaging and user-friendly manner.
 
-![Portfolio Screenshot](./screen.jpeg)
 
 The portfolio includes the following sections:
 - **About Me**: A brief introduction to who I am and what I do.
